@@ -48,7 +48,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- /logo -->
 				<!--top-nav---->
 				<div class="top-nav " style="position: fixed;top:0em;z-index:9; background-color:#333;" >
-					<div class="navigation" style="display: flex;justify-content: space-evenly; width: 100vw;">
+					<div class="navigation" style="display: flex;justify-content: space-between; align-items: center; width: 100vw; padding-right: 15px;">
 						<div class="logo">
 							<h1><a href="index.html"><span>P</span>REFACE</a></h1>
 						</div>
@@ -358,11 +358,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="news-grid w3l-agile">
 				<div class="col-md-6 news-img">
-					<a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/dts1.jpg" alt=" "
-							class="img-responsive "></a>
+					<img src="./images/dts1.jpg" alt="" style="min-height: 329px;">
+					<!-- <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/dts1.jpg" alt=" "
+							class="img-responsive " style="height: 50px;" ></a> -->
 
 				</div>
-				<div class="col-md-6 news-text">
+				<div class="col-md-6 news-text blogDiv">
 					<h3> <a href="#" data-toggle="modal" data-target="#myModal1">Data Structure and Algorithms 101</a>
 					</h3>
 					<!-- <ul class="news">
@@ -371,7 +372,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
 						<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
 					</ul> -->
-					<p>
+					<p id="blogPara" style="height: 80px; overflow: hidden;">
 
 						Intro
 						
@@ -398,7 +399,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						I will talk about algorithams next week.
 						
 							</p>
-					<a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Read
+					<a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal" id="blog">Read
 						More</a>
 
 				</div>
@@ -520,7 +521,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</script>
 			<!-- ajax liberary for linking submit with google sheet neatly-->
 			<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-
+			<script src="./js/script.js"></script>
 
 </body>
 

@@ -59,6 +59,9 @@ body h1,h2,h3,h4,h5,h6{
 }
 .navigation-right{
 	float:right;
+	/* margin: 0em 0em 1em 9em; */
+	margin-left: auto;
+    padding-right: 5px;
 	
 }
 .navigation-right ul li{
@@ -275,6 +278,11 @@ background-position: 3px -94px;
 	font-weight:700;
 }
 /*-- /blogs --*/
+/* .blogDiv{
+	transition-duration: 3s;
+	transition-delay: 2s;
+	
+} */
 .news-text {
     float: right;
     padding: 3.38em 2em;
@@ -1558,7 +1566,7 @@ span.border.two:after {
 		width: 100%;
 		position: relative;
 		text-align: center;
-		margin: 0px;
+		margin-right:auto;
 	}
 	.navigation-right ul {
 		position: absolute;
@@ -1577,11 +1585,13 @@ span.border.two:after {
 	}
 	ul.nav1 {
 		display: none;
-		margin-top: 2em;
+		/* margin-top: 2em; */
 		    background: rgba(27, 26, 26, 0.98);
 	}
 	.navigation-right {
-		margin: 0.7em 0 0;
+		/* margin: 0.7em 0 0; */
+		margin-left: auto;
+		padding-right: 15px;
 	}
 	.navigation-right ul li a {
 		display: inline-block;
@@ -1759,7 +1769,9 @@ span.border.two:after {
 		padding: 1.5em 0 0 0;
 	}
 	.navigation-right {
-		margin: 0em 0 0;
+		/* margin: 0em 0 0 9em; */
+		margin-left: auto;
+		padding-right: 15px;
 	}
 	ul.year li {
 		margin-top: 10px;
