@@ -222,21 +222,24 @@ ul.social-icons{
     text-align: center;
 	margin:0;
 }
-.social-icons li {
+
+
+/* .social-icons li {
     display: inline-block;
     margin-right: 1%;
-}
-.social-icons li a{  
-    background: url(../images/social-icons2.png) no-repeat 3px 3px;
-    display: block;
-    height: 32px;
-    width: 32px;
+} */
+/* .social-icons li a{  
+    background: url(../images/linkedin.png) no-repeat 3px 3px;
+	display: block;
+	size: 50%	;
+    height: 100px;
+    width: 100px;
 	margin-right: 1em;
 	-webkit-transition: .5s all;
     transition: .5s all;
-    -moz-transition: .5s all;
+    -moz-transition: .5s all; */
 }
-.social-icons li a:before {
+/* .social-icons li a:before {
 	content: '';
     display: block;
     height: 32px;
@@ -247,8 +250,8 @@ ul.social-icons{
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	-ms-transform: rotate(45deg); 
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);	
-}
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);	 */
+/* }
 .social-icons li a.fb{
 	background-position: 3px -30px;
 }
@@ -261,7 +264,7 @@ background-position: 3px -94px;
 .social-icons li a:hover::before {
     border-color: #00a78e;
 	    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-}
+} */
 /*-- wellcome-note --*/
 .welcome-note{
 	margin:3em 0;
